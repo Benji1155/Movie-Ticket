@@ -17,7 +17,9 @@ int main()
 	cout << "Are you a student? (y/n): ";
 	cin >> q1;
 	//Doing the maths 
-	if (n1 < 16) or (q1 = "y")
+	if (n1 < 16)
+		cout << "the price of your ticket is $10 as you are either a student or under 16!";
+	else if (char q1 = 'y')
 		cout << "the price of your ticket is $10 as you are either a student or under 16!";
 	else 
 		cout << "The price of your ticket is $15 as you are not a student or under 16!";
